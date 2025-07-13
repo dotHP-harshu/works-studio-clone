@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "freight";
+  src: url("./assets/fonts/FreightBigLight.otf");
+}
+@import "tailwindcss";
+
+@theme {
+  --font-freight: "freight";
+  --breakpoint-xs: 30rem;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
